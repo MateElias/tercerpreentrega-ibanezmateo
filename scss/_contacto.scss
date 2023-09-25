@@ -1,0 +1,56 @@
+@mixin formulario-inputs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid $color-sombra;
+    border-radius: 5px;
+}
+
+/* Contacto */
+
+.puertas {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contactanos {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Formulario */
+
+.formulario-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: $color-gris;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* Espacio en la parte inferior del formulario */
+}
+
+.formulario {
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input,
+    textarea {
+        @include formulario-inputs;
+    }
+
+    input[type="submit"] {
+        background-color: $color-cian;
+        color: $color-blanco;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,26 @@
+/* Estilos para pantallas más pequeñas (ejemplo: smartphones) */
+@media (max-width: 768px) {
+    .formulario-container {
+        width: 90%;
+        /* Reducir el ancho del formulario en pantallas pequeñas */
+        margin-top: 10px;
+        /* Reducir el espacio en la parte superior del formulario */
+        margin-bottom: 10px;
+        /* Reducir el espacio en la parte inferior del formulario */
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .banner {
+        padding: 10px;
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

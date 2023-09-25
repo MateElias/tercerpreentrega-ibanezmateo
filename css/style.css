@@ -1,0 +1,167 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.nosotros {
+  padding: 2rem;
+}
+
+/* NavBar */
+.morado {
+  color: blueviolet;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+}
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Productos */
+.modelos {
+  text-align: center;
+  padding: 3rem;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.tarjeta img {
+  max-width: 70%;
+  max-height: 30%;
+  margin: 0 auto;
+  display: block;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item {
+  margin: 0;
+}
+
+.boton-reserva {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.boton-reserva:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contacto */
+.puertas {
+  text-align: center;
+  padding: 2rem;
+}
+
+.contactanos {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Formulario */
+.formulario-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* Espacio en la parte inferior del formulario */
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 10px;
+}
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.formulario input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para pantallas más pequeñas (ejemplo: smartphones) */
+@media (max-width: 768px) {
+  .formulario-container {
+    width: 90%;
+    /* Reducir el ancho del formulario en pantallas pequeñas */
+    margin-top: 10px;
+    /* Reducir el espacio en la parte superior del formulario */
+    margin-bottom: 10px;
+    /* Reducir el espacio en la parte inferior del formulario */
+  }
+}
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .banner {
+    padding: 10px;
+  }
+}
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
